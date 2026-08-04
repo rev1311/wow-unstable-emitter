@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Elwynn Forest"
+  },
+  {
+    "id": 2,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Westfall"
+  },
+  {
+    "id": 3,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Redridge Mountains"
+  },
+  {
+    "id": 4,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Duskwood"
+  },
+  {
+    "id": 5,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Northern Stranglethorn"
+  },
+  {
+    "id": 6,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Cape of Stranglethorn"
+  },
+  {
+    "id": 7,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Swamp of Sorrows"
+  },
+  {
+    "id": 8,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Blasted Lands"
+  },
+  {
+    "id": 9,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Badlands"
+  },
+  {
+    "id": 10,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Searing Gorge"
+  },
+  {
+    "id": 11,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Burning Steppes"
+  },
+  {
+    "id": 12,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "The Hinterlands"
+  },
+  {
+    "id": 13,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Arathi Highlands"
+  },
+  {
+    "id": 14,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Hillsbrad Foothills"
+  },
+  {
+    "id": 15,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Silverpine Forest"
+  },
+  {
+    "id": 16,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Tirisfal Glades"
+  },
+  {
+    "id": 17,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Western Plaguelands"
+  },
+  {
+    "id": 18,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Eastern Plaguelands"
+  },
+  {
+    "id": 19,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Ghostlands"
+  },
+  {
+    "id": 20,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Eversong Woods"
+  },
+  {
+    "id": 21,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Loch Modan"
+  },
+  {
+    "id": 22,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Wetlands"
+  },
+  {
+    "id": 23,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Dun Morogh"
+  },
+  {
+    "id": 24,
+    "world": "Azeroth",
+    "region": "Eastern Kingdoms",
+    "zone": "Twilight Highlands"
+  },
+  {
+    "id": 25,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Teldrassil"
+  },
+  {
+    "id": 26,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Darkshore"
+  },
+  {
+    "id": 27,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Ashenvale"
+  },
+  {
+    "id": 28,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Stonetalon Mountains"
+  },
+  {
+    "id": 29,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Desolace"
+  },
+  {
+    "id": 30,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Feralas"
+  },
+  {
+    "id": 31,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Dustwallow Marsh"
+  },
+  {
+    "id": 32,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Southern Barrens"
+  },
+  {
+    "id": 33,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Northern Barrens"
+  },
+  {
+    "id": 34,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Durotar"
+  },
+  {
+    "id": 35,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Mulgore"
+  },
+  {
+    "id": 36,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Azshara"
+  },
+  {
+    "id": 37,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Felwood"
+  },
+  {
+    "id": 38,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Moonglade"
+  },
+  {
+    "id": 39,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Winterspring"
+  },
+  {
+    "id": 40,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Silithus"
+  },
+  {
+    "id": 41,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Un'Goro Crater"
+  },
+  {
+    "id": 42,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Tanaris"
+  },
+  {
+    "id": 43,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Thousand Needles"
+  },
+  {
+    "id": 44,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Mount Hyjal"
+  },
+  {
+    "id": 45,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Azuremyst Isle"
+  },
+  {
+    "id": 46,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Bloodmyst Isle"
+  },
+  {
+    "id": 47,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "Kezan"
+  },
+  {
+    "id": 48,
+    "world": "Azeroth",
+    "region": "Kalimdor",
+    "zone": "The Lost Isles"
+  },
+  {
+    "id": 49,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Hellfire Peninsula"
+  },
+  {
+    "id": 50,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Zangarmarsh"
+  },
+  {
+    "id": 51,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Terokkar Forest"
+  },
+  {
+    "id": 52,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Nagrand"
+  },
+  {
+    "id": 53,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Blade's Edge Mountains"
+  },
+  {
+    "id": 54,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Netherstorm"
+  },
+  {
+    "id": 55,
+    "world": "Outland",
+    "region": "Outland",
+    "zone": "Shadowmoon Valley"
+  },
+  {
+    "id": 56,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Borean Tundra"
+  },
+  {
+    "id": 57,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Howling Fjord"
+  },
+  {
+    "id": 58,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Dragonblight"
+  },
+  {
+    "id": 59,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Grizzly Hills"
+  },
+  {
+    "id": 60,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Zul'Drak"
+  },
+  {
+    "id": 61,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Sholazar Basin"
+  },
+  {
+    "id": 62,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Crystalsong Forest"
+  },
+  {
+    "id": 63,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "The Storm Peaks"
+  },
+  {
+    "id": 64,
+    "world": "Azeroth",
+    "region": "Northrend",
+    "zone": "Icecrown"
+  },
+  {
+    "id": 65,
+    "world": "Azeroth",
+    "region": "Elemental Plane",
+    "zone": "Deepholm"
+  },
+  {
+    "id": 66,
+    "world": "Azeroth",
+    "region": "Vashj'ir",
+    "zone": "Kelp'thar Forest"
+  },
+  {
+    "id": 67,
+    "world": "Azeroth",
+    "region": "Vashj'ir",
+    "zone": "Shimmering Expanse"
+  },
+  {
+    "id": 68,
+    "world": "Azeroth",
+    "region": "Vashj'ir",
+    "zone": "Abyssal Depths"
+  },
+  {
+    "id": 69,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "The Jade Forest"
+  },
+  {
+    "id": 70,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Valley of the Four Winds"
+  },
+  {
+    "id": 71,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Krasarang Wilds"
+  },
+  {
+    "id": 72,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Kun-Lai Summit"
+  },
+  {
+    "id": 73,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Townlong Steppes"
+  },
+  {
+    "id": 74,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Dread Wastes"
+  },
+  {
+    "id": 75,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Vale of Eternal Blossoms"
+  },
+  {
+    "id": 76,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Timeless Isle"
+  },
+  {
+    "id": 77,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Isle of Giants"
+  },
+  {
+    "id": 78,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Isle of Thunder"
+  },
+  {
+    "id": 79,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Shadowmoon Valley"
+  },
+  {
+    "id": 80,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Frostfire Ridge"
+  },
+  {
+    "id": 81,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Gorgrond"
+  },
+  {
+    "id": 82,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Talador"
+  },
+  {
+    "id": 83,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Spires of Arak"
+  },
+  {
+    "id": 84,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Nagrand"
+  },
+  {
+    "id": 85,
+    "world": "Draenor",
+    "region": "Draenor",
+    "zone": "Tanaan Jungle"
+  },
+  {
+    "id": 86,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Azsuna"
+  },
+  {
+    "id": 87,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Val'sharah"
+  },
+  {
+    "id": 88,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Highmountain"
+  },
+  {
+    "id": 89,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Stormheim"
+  },
+  {
+    "id": 90,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Suramar"
+  },
+  {
+    "id": 91,
+    "world": "Azeroth",
+    "region": "Broken Isles",
+    "zone": "Broken Shore"
+  },
+  {
+    "id": 92,
+    "world": "Argus",
+    "region": "Argus",
+    "zone": "Krokuun"
+  },
+  {
+    "id": 93,
+    "world": "Argus",
+    "region": "Argus",
+    "zone": "Mac'Aree"
+  },
+  {
+    "id": 94,
+    "world": "Argus",
+    "region": "Argus",
+    "zone": "Antoran Wastes"
+  },
+  {
+    "id": 95,
+    "world": "Azeroth",
+    "region": "Kul Tiras",
+    "zone": "Tiragarde Sound"
+  },
+  {
+    "id": 96,
+    "world": "Azeroth",
+    "region": "Kul Tiras",
+    "zone": "Drustvar"
+  },
+  {
+    "id": 97,
+    "world": "Azeroth",
+    "region": "Kul Tiras",
+    "zone": "Stormsong Valley"
+  },
+  {
+    "id": 98,
+    "world": "Azeroth",
+    "region": "Zandalar",
+    "zone": "Zuldazar"
+  },
+  {
+    "id": 99,
+    "world": "Azeroth",
+    "region": "Zandalar",
+    "zone": "Nazmir"
+  },
+  {
+    "id": 100,
+    "world": "Azeroth",
+    "region": "Zandalar",
+    "zone": "Vol'dun"
+  },
+  {
+    "id": 101,
+    "world": "Azeroth",
+    "region": "Nazjatar",
+    "zone": "Nazjatar"
+  },
+  {
+    "id": 102,
+    "world": "Azeroth",
+    "region": "Uldum",
+    "zone": "Uldum"
+  },
+  {
+    "id": 103,
+    "world": "Azeroth",
+    "region": "Pandaria",
+    "zone": "Vale of Eternal Blossoms"
+  },
+  {
+    "id": 104,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Bastion"
+  },
+  {
+    "id": 105,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Maldraxxus"
+  },
+  {
+    "id": 106,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Ardenweald"
+  },
+  {
+    "id": 107,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Revendreth"
+  },
+  {
+    "id": 108,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "The Maw"
+  },
+  {
+    "id": 109,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Korthia"
+  },
+  {
+    "id": 110,
+    "world": "Shadowlands",
+    "region": "Shadowlands",
+    "zone": "Zereth Mortis"
+  },
+  {
+    "id": 111,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "The Waking Shores"
+  },
+  {
+    "id": 112,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "Ohn'ahran Plains"
+  },
+  {
+    "id": 113,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "The Azure Span"
+  },
+  {
+    "id": 114,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "Thaldraszus"
+  },
+  {
+    "id": 115,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "The Forbidden Reach"
+  },
+  {
+    "id": 116,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "Zaralek Cavern"
+  },
+  {
+    "id": 117,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "The Emerald Dream"
+  },
+  {
+    "id": 118,
+    "world": "Azeroth",
+    "region": "Dragon Isles",
+    "zone": "Siren Isle"
+  }
+]
