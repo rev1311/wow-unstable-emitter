@@ -4,10 +4,13 @@ const worldDiv = document.getElementById('worldDiv');
 const regionDiv = document.getElementById('regionDiv');
 const zoneDiv = document.getElementById('zoneDiv');
 const coordsDiv = document.getElementById('coordsDiv');
+const diagnosticDiv = document.getElementById('diagnosticDiv');
 const worldName = document.getElementById('worldName');
 const regionName = document.getElementById('regionName');
 const zoneName = document.getElementById('zoneName');
 const coordValue = document.getElementById('coordsValue');
+const diagnosticLabel = document.getElementById('diagnosticLabel');
+const diagnosticValue = document.getElementById('diagnosticValue');
 
 calibrateDestination.disabled = true;
 
@@ -45,6 +48,139 @@ const themes = [
         name: "Void Corrupted"
     }
 ];
+
+const diagnostics = [
+
+    {
+        label: "Spatial Drift",
+        value: () => `±${random(1, 8)} m`
+    },
+
+    {
+        label: "Temporal Offset",
+        value: () => `${(Math.random() * 2).toFixed(2)} s`
+    },
+
+    {
+        label: "Portal Stability",
+        value: () => `${random(72, 100)}%`
+    },
+
+    {
+        label: "Arcane Saturation",
+        value: () => `${random(10, 98)}%`
+    },
+
+    {
+        label: "Mana Density",
+        value: () => `${random(50, 500)} AU`
+    },
+
+    {
+        label: "Leyline Strength",
+        value: () => `${random(1, 12)}.${random(0, 9)}`
+    },
+
+    {
+        label: "Reality Coherence",
+        value: () => `${random(80, 100)}%`
+    },
+
+    {
+        label: "Phase Variance",
+        value: () => `${random(100, 999)}`
+    },
+
+    {
+        label: "Calibration Error",
+        value: () => `${(Math.random() * 1).toFixed(2)}%`
+    },
+
+    {
+        label: "Navigation Confidence",
+        value: () => `${random(85, 100)}%`
+    },
+
+    {
+        label: "Void Resonance",
+        value: () => String.fromCharCode(random(65, 90))
+    },
+
+    {
+        label: "Chronal Echo",
+        value: () => `Class ${String.fromCharCode(random(65, 70))}`
+    },
+
+    {
+        label: "Entropy Index",
+        value: () => random(0, 999)
+    },
+
+    {
+        label: "Astral Alignment",
+        value: () => ["Optimal", "Stable", "Variable", "Unknown"][random(0,3)]
+    },
+
+    {
+        label: "Rift Integrity",
+        value: () => `${random(60, 100)}%`
+    },
+
+    {
+        label: "Anomaly Risk",
+        value: () => ["Low", "Moderate", "Elevated", "High"][random(0,3)]
+    },
+
+    {
+        label: "Dimensional Shear",
+        value: () => `Δ${(Math.random() * 5).toFixed(2)}`
+    },
+
+    {
+        label: "Ether Flux",
+        value: () => `${random(1000,9999)} EF`
+    },
+
+    {
+        label: "Runic Synchronization",
+        value: () => `${random(1, 9)}/${random(10, 99)}`
+    },
+
+    {
+        label: "Destination Certainty",
+        value: () => `${random(75, 99)}%`
+    },
+
+    {
+        label: "Chronal Stability",
+        value: () => ["Nominal", "Acceptable", "Stable", "Fluctuating"][random(0,3)]
+    },
+
+    {
+        label: "Temporal Anchor",
+        value: () => `MK-${random(1,9)}`
+    },
+
+    {
+        label: "Spatial Harmonics",
+        value: () => `${random(100,999)} Hz`
+    },
+
+    {
+        label: "Arcane Noise",
+        value: () => `${random(0,25)} dB`
+    },
+
+    {
+        label: "Portal Signature",
+        value: () => `PX-${random(1000,9999)}`
+    }
+
+];
+
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 let currentTheme = 0;
 
@@ -134,6 +270,8 @@ async function init() {
 
         const coords = getRandomCoordinates(destination);
 
+        const diagnostic = diagnostics[random(0, diagnostics.length - 1)];
+
         worldDiv.classList.add("hidden");
         regionDiv.classList.add("hidden");
         zoneDiv.classList.add("hidden");
@@ -152,27 +290,34 @@ async function init() {
 
         await sleep(500);
         worldDiv.classList.remove("hidden");
-        await sleep(1000);
+        await sleep(2000);
         worldName.textContent = destination.world;
         worldName.classList.remove("placeholder");
 
         await sleep(600);
         regionDiv.classList.remove("hidden");
-        await sleep(1200);
+        await sleep(2200);
         regionName.textContent = destination.region;
         regionName.classList.remove("placeholder");
 
         await sleep(700);
         zoneDiv.classList.remove("hidden");
-        await sleep(1400);
+        await sleep(2400);
         zoneName.textContent = destination.zone;
         zoneName.classList.remove("placeholder");
 
         await sleep(600);
         coordsDiv.classList.remove("hidden");
-        await sleep(1200);
+        await sleep(2200);
         coordValue.textContent = `${coords.x}, ${coords.y}`;
         coordValue.classList.remove("placeholder");
+        
+        await sleep(600);
+        diagnosticDiv.classList.remove("hidden");
+        diagnosticLabel.textContent = diagnostic.label;
+        await sleep(2200);
+        diagnosticValue.textContent = diagnostic.value();
+        diagnosticValue.classList.remove("placeholder");
 
     });
 
