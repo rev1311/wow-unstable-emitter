@@ -46,6 +46,10 @@ const themes = [
     {
         css: "theme-void-corrupted",
         name: "Void Corrupted"
+    },
+    {
+        css: "theme-fel-corrupted",
+        name: "Fel Corrupted"
     }
 ];
 
@@ -276,6 +280,8 @@ async function init() {
         regionDiv.classList.add("hidden");
         zoneDiv.classList.add("hidden");
         coordsDiv.classList.add("hidden");
+        diagnosticDiv.classList.add("hidden");
+
 
         await sleep(500);
         worldName.classList.add("placeholder");
