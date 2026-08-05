@@ -11,6 +11,85 @@ const coordValue = document.getElementById('coordsValue');
 
 calibrateDestination.disabled = true;
 
+const themes = [
+    {
+        css: "theme-expedition",
+        name: "Expedition"
+    },
+    {
+        css: "theme-mark-i",
+        name: "Mark I"
+    },
+    {
+        css: "theme-mark-ii",
+        name: "Mark II"
+    },
+    {
+        css: "theme-titan-archive",
+        name: "Titan Archive"
+    },
+    {
+        css: "theme-draenic-surveyor",
+        name: "Draenic Surveyor"
+    },
+    {
+        css: "theme-goblin-retrofit",
+        name: "Goblin Retrofit"
+    },
+    {
+        css: "theme-arcane-prototype",
+        name: "Arcane Prototype"
+    },
+    {
+        css: "theme-void-corrupted",
+        name: "Void Corrupted"
+    }
+];
+
+let currentTheme = 0;
+
+const themeLeft = document.getElementById("themeLeft");
+const themeRight = document.getElementById("themeRight");
+const themeName = document.getElementById("themeName");
+
+function updateTheme() {
+
+    const theme = themes[currentTheme];
+
+    document.body.className = theme.css;
+
+    themeName.textContent = theme.name;
+
+    localStorage.setItem("theme", currentTheme);
+
+}
+
+themeLeft.addEventListener("click", () => {
+
+    currentTheme =
+        (currentTheme - 1 + themes.length) % themes.length;
+
+    updateTheme();
+
+});
+
+themeRight.addEventListener("click", () => {
+
+    currentTheme =
+        (currentTheme + 1) % themes.length;
+
+    updateTheme();
+
+});
+
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme !== null) {
+    currentTheme = Number(savedTheme);
+}
+
+updateTheme();
+
 function getRandomCoordinates(zone) {
 
     let x;
