@@ -59,122 +59,98 @@ const diagnostics = [
         label: "Spatial Drift",
         value: () => `±${random(1, 8)} m`
     },
-
     {
         label: "Temporal Offset",
         value: () => `${(Math.random() * 2).toFixed(2)} s`
     },
-
     {
         label: "Portal Stability",
         value: () => `${random(72, 100)}%`
     },
-
     {
         label: "Arcane Saturation",
         value: () => `${random(10, 98)}%`
     },
-
     {
         label: "Mana Density",
         value: () => `${random(50, 500)} AU`
     },
-
     {
         label: "Leyline Strength",
         value: () => `${random(1, 12)}.${random(0, 9)}`
     },
-
     {
         label: "Reality Coherence",
         value: () => `${random(80, 100)}%`
     },
-
     {
         label: "Phase Variance",
         value: () => `${random(100, 999)}`
     },
-
     {
         label: "Calibration Error",
         value: () => `${(Math.random() * 1).toFixed(2)}%`
     },
-
     {
         label: "Navigation Confidence",
         value: () => `${random(85, 100)}%`
     },
-
     {
         label: "Void Resonance",
         value: () => String.fromCharCode(random(65, 90))
     },
-
     {
         label: "Chronal Echo",
         value: () => `Class ${String.fromCharCode(random(65, 70))}`
     },
-
     {
         label: "Entropy Index",
         value: () => random(0, 999)
     },
-
     {
         label: "Astral Alignment",
         value: () => ["Optimal", "Stable", "Variable", "Unknown"][random(0,3)]
     },
-
     {
         label: "Rift Integrity",
         value: () => `${random(60, 100)}%`
     },
-
     {
         label: "Anomaly Risk",
         value: () => ["Low", "Moderate", "Elevated", "High"][random(0,3)]
     },
-
     {
         label: "Dimensional Shear",
         value: () => `Δ${(Math.random() * 5).toFixed(2)}`
     },
-
     {
         label: "Ether Flux",
         value: () => `${random(1000,9999)} EF`
     },
-
     {
         label: "Runic Synchronization",
         value: () => `${random(1, 9)}/${random(10, 99)}`
     },
-
     {
         label: "Destination Certainty",
         value: () => `${random(75, 99)}%`
     },
-
     {
         label: "Chronal Stability",
         value: () => ["Nominal", "Acceptable", "Stable", "Fluctuating"][random(0,3)]
     },
-
     {
         label: "Temporal Anchor",
         value: () => `MK-${random(1,9)}`
     },
-
     {
         label: "Spatial Harmonics",
         value: () => `${random(100,999)} Hz`
     },
-
     {
         label: "Arcane Noise",
         value: () => `${random(0,25)} dB`
     },
-
     {
         label: "Portal Signature",
         value: () => `PX-${random(1000,9999)}`
