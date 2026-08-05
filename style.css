@@ -440,28 +440,29 @@ body {
 
     --body-bg:
         radial-gradient(circle at top,
-            #3c2854 0%,
-            #231733 45%,
-            #120d1b 100%);
+            #31154f 0%,
+            #1a0d2d 45%,
+            #09040f 100%);
 
-    --device-bg: #45315d;
-    --device-border: #241532;
+    --device-bg: #4d2b63;
+    --device-border: #29113d;
 
-    --button-bg: #64478d;
-    --button-hover: #7856a8;
-    --button-border: #b58cff;
-    --button-text: #f2e9ff;
+    --button-bg: #b1169b;
+    --button-hover: #d61fc0;
+    --button-border: #ff59e7;
+    --button-text: #fff4fe;
 
-    --screen-bg: #10081a;
-    --screen-border: #6f4cb4;
+    --screen-bg: #0d0615;
+    --screen-border: #d53cff;
 
-    --label-color: #b38fff;
-    --value-color: #e1c8ff;
-    --placeholder-color: #9a78d6;
+    --label-color: #ff2bd6;
+    --value-color: #ff74f1;
+    --placeholder-color: #ff43dd;
 
     --value-glow:
-        0 0 10px rgba(190,140,255,.45),
-        0 0 22px rgba(170,100,255,.25);
+        0 0 12px rgba(255, 80, 220, .75),
+        0 0 28px rgba(255, 40, 200, .50),
+        0 0 40px rgba(200, 40, 255, .25);
 }
 
 .theme-void-corrupted {
@@ -490,4 +491,33 @@ body {
     --value-glow:
         0 0 12px rgba(190,120,255,.55),
         0 0 28px rgba(150,80,255,.35);
+}
+
+.theme-fel-corrupted {
+
+    --body-bg:
+        radial-gradient(circle at top,
+            #1a2a10 0%,
+            #0c1407 45%,
+            #020402 100%);
+
+    --device-bg: #1d2318;
+    --device-border: #4d7a1b;
+
+    --button-bg: #3d7d11;
+    --button-hover: #53a819;
+    --button-border: #8eff2b;
+    --button-text: #e9ffd6;
+
+    --screen-bg: #050904;
+    --screen-border: #6cff17;
+
+    --label-color: #82d84b;
+    --value-color: #b9ff61;
+    --placeholder-color: #7fc23f;
+
+    --value-glow:
+        0 0 12px rgba(120,255,60,.75),
+        0 0 26px rgba(80,255,40,.45),
+        0 0 42px rgba(40,180,20,.25);
 }
